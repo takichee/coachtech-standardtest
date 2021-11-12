@@ -1,0 +1,96 @@
+.admin-index-wrapper {
+  padding: 10px 40px 50px 40px;
+  width: 1050px;
+  box-sizing: border-box;
+}
+.admin-index-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.admin-index-search {
+  border: 1px solid black;
+  padding: 20px 25px;
+}
+.admin-index-search__row {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.admin-index-search__item-group__label {
+  font-weight: bolder;
+  font-size: smaller;
+  width: 120px;
+}
+.admin-index-search__item-group__label--gender {
+  font-weight: bolder;
+  font-size: smaller;
+  width: 50px;
+}
+.admin-index-search__gender__label {
+  font-weight: bolder;
+  font-size: smaller;
+  width: 50px;
+}
+.admin-index-search__gender {
+  margin-left: 50px;
+}
+.admin-index-search__item-group__input,
+.admin-index-search__item-group__input input
+{
+  width: 200px;
+}
+.admin-index-search__name,
+.admin-index-search__gender {
+  display: flex;
+  align-items: center;
+}
+.admin-index-search__item-group__calendar--span {
+  margin: 0 30px;
+}
+.admin-index-search__gender__radio {
+  font-size: smaller;
+  margin-left: 10px;
+}
+input[type='radio'] {
+  height: 20px;
+  width: 20px;
+}
+.admin-index-search__footer {
+  text-align: center;
+  line-height: 30px;
+}
+.admin-index__pagination {
+  margin: 20px 0;
+}
+.admin-index__contacts {
+  table-layout: fixed;
+}
+.admin-index__contacts__row th,
+.admin-index__contacts__row td {
+  padding: 5px 10px;
+  text-align: left;
+  font-size: smaller;
+}
+.admin-index__contacts__header {
+  border-bottom: 1px solid black;
+}
+.contacts-table__row__item .btn-delete {
+  width: 80px;
+  font-size: smaller;
+}
+.th-width--id {
+  width: 10px;
+}
+.th-width--name {
+  width: 260px;
+}
+.th-width--gender {
+  width: 80px;
+}
+.th-width--email,
+.th-width--opinion {
+  width: 300px;
+}
+.th-width--del {
+  width: 100px;
+}

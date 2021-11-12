@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+input,textarea {
+  border: solid 1px rgb(200, 200, 200);
+  border-radius: 5px;
+  line-height: 2em;
+  padding-left: 10px;
+}
+
+input[type="submit"], button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+input[type='submit']:hover,
+button:hover {
+  cursor: pointer;
+}
