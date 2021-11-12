@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="{{ asset('css/reset.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/default.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/admin/index.css') }}">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <style>
     svg.h-5.w-5 {
       height: 10px;
